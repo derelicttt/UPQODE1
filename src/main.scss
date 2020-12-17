@@ -1,0 +1,79 @@
+@import "/node_modules/swiper/swiper-bundle.css";
+
+
+
+
+
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.hero{
+  background: url("/public/images/Bitmap.png")  no-repeat ;
+  overflow: hidden;
+  position: relative;
+}
+
+footer{
+  background: #222222;
+  height:344px;
+}
+
+.svg{
+  position: absolute;
+ margin-left: -105px;
+}
+
+.nav-footer{
+  color: #777777;
+}
+
+
+.video{
+  margin-left: 500px;
+}
+#Map{
+  width:100%;
+  height:450px;}
+
+@media (min-width: 1024px) {
+  .container{
+    margin-top: 210px;
+    margin-right: 456px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .container{
+    margin-top: 170px;
+    margin-bottom: 250px;
+  }
+}
+@media (max-width: 370px) {
+  .container{
+  margin-bottom: 250px;
+}
+}
+
+@media (min-width: 640px) {
+ .container1{
+   flex-wrap: nowrap;
+ }
+
+}
+
+.pointt{
+
+  width: 200px;
+  height: 200px;
+}
+
+.verylong {
+  height: 2000px;
+}
